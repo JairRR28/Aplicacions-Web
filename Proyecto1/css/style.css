@@ -1,0 +1,67 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap');
+body {
+    background-color: #d7cece;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+}
+h1 {
+    color: #0e56f1;
+    font-size: 6em;
+    text-align: center;
+    font-family: "Caacupe One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+    color: #aeacaa;
+    background-color: #0e56f1;
+    font-size: 3em;
+    text-align: center;
+     font-family: "Caacupe One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.texto2 {
+    color: #56b315c3;
+    font-size: 1.6em;
+}
+.contenido img {
+    width: 200px;
+}
+.contenido2 {
+    text-align: center;
+    margin-top: 50px;
+}
+.justificacion {
+    width: 80%;
+    margin: auto;
+    color: #56b315c3;
+    font-size: 1.4em;
+    text-align: justify;
+}
+.contenedor3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contenedor3 a:hover {
+    background-color: #21fffbc3;
+}
+
+
+.contenedor3 img {
+    width: 200px;
+    margin-top: 20px;
+}
