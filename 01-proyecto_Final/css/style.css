@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+
+body {
+    background-color: #242424;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: white;
+}
+
+/* TÍTULO */
+header {
+    background-color: #111111;
+    padding: 25px;
+    border-bottom: 5px solid #d4af37;
+}
+
+h1 {
+    font-family: "Estonia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #d4af37;
+    font-size: 5em;
+    text-align: center;
+    margin: 0;
+}
+
+/* MENÚ */
+nav {
+    background-color: #3a3a3a;
+    text-align: center;
+    padding: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 25px;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+/* CONTENIDO */
+main {
+    width: 85%;
+    margin: auto;
+}
+
+/* SUBTÍTULOS */
+h2 {
+    font-family: "Estonia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #d4af37;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+/* TEXTO E IMAGEN */
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.texto {
+    width: 60%;
+}
+
+.texto p {
+    color: white;
+    font-size: 1.6em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.contenido img {
+    width: 400px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+/* SEGUNDA PARTE */
+.contenido2 {
+    text-align: center;
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.contenido2 h2 {
+    text-align: center;
+}
+
+.justificacion {
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-size: 1.4em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* ENLACES */
+.contenedor3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contenedor3 a {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #111111;
+    padding: 12px 25px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contenedor3 a:hover {
+    background-color: white;
+    color: #111111;
+}
+
+.contenedor3 img {
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    background-color: #111111;
+    color: #d4af37;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
