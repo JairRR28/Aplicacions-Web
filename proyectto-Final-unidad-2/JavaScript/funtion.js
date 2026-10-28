@@ -11,7 +11,7 @@ const productos = listaProductos.querySelectorAll(".producto");
             }
         });
         if (contadorProductos) {
-            contadorProductos.textContent = visibles + " productos Existentes";
+            contadorProductos.textContent = visibles + " productos Existentesgit";
         }
     }
     buscador.addEventListener("input", function() {
